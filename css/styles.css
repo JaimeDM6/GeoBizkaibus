@@ -199,5 +199,10 @@ header h1 {
 
     .modal {
         top: 55%;
+        width: 90%;
+    }
+
+    #map {
+        height: 75vh;
     }
 }
