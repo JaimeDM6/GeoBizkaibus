@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
     cargarParadas();
 
     function cargarAutobuses() {
-        fetch('proxy.php')
+        fetch('https://cors-anywhere.herokuapp.com/https://ctb-siri.s3.eu-south-2.amazonaws.com/bizkaibus-vehicle-positions.xml')
             .then(response => response.text())
             .then(str => {
                 const parser = new DOMParser();
