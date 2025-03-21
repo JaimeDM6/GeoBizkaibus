@@ -187,3 +187,17 @@ header h1 {
     top: 10px;
     left: 12px
 }
+
+@media (max-width: 768px) {
+    header img {
+        width: 10em;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .modal {
+        top: 55%;
+    }
+}
