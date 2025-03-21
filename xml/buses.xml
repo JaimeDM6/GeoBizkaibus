@@ -1,0 +1,3216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Vehiculos>
+    <Vehiculo>
+        <Numero>665</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 LE - Volvo</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>7047 GZJ</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>668</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 LE - Volvo</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4290 GZD</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>671</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 LE - Volvo</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>8422 GZF</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1101</Numero>
+        <Marca>Solaris</Marca>
+        <Modelo>Urbino 12 Electric</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>5076 LYW</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1102</Numero>
+        <Marca>Solaris</Marca>
+        <Modelo>Urbino 12 Electric</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9798 LZB</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1491</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>Astral LE - Volvo</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>8321 HMZ</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1492</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>Astral LE - Volvo</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>0248 HND</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1493</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>Astral LE - Volvo</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>7529 HNJ</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1511</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>Astral LE - Scania</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>3530 HZD</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1512</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>Astral LE - Scania</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>3577 HZD</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1513</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>Astral LE - Scania</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>9728 HZB</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1514</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>Astral LE - Scania</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>9732 HZB</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1515</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>Astral LE - Scania</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>0239 JWG</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1516</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>Astral LE - Scania</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>0238 JWG</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1534</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E LE - Scania</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>3530 HZD</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1677</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 LE - Volvo</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>1824 HHY</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1678</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 LE - Volvo</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>1829 HHY</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1680</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 LE - Volvo</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>0313 HLV</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1714</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>Astral LE - Volvo</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4573 HYP</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1715</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>Astral LE - Volvo</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>0945 JGZ</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1716</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>Astral LE - Volvo</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>0947 JGZ</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1717</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>SB3 LE - Volvo</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>0250 JVK</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1718</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>SB3 LE - Volvo</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>0353 JVK</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1719</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>SB3 LE - Volvo</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>0424 JVK</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1720</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>SB3 LE - Volvo</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>7791 JVS</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1721</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>SB3 LE - Volvo</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2280 KBT</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1722</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>SB3 LE - Volvo</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>0662 KBT</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1723</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>SB3 LE - Volvo</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>0793 KBT</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1731</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9992 KSB</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1732</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9991 KSB</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1733</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9993 KSB</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1762</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE Hybrid - Scania</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>1410 LYK</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>1773</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E LE - Mercedes-Benz</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9322 HSM</Matricula>
+        <Concesion>EuskoTren</Concesion>
+        <DescripcionConcesion>Eusko Trenbideak</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2046</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7230 HYX</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2047</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7278 HYX</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2048</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7308 HYX</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2049</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7359 HYX</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2050</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7452 HYX</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2051</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7531 HYX</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2052</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Integro II</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7828 HYY</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2053</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Integro II</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7888 HYY</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2054</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Integro II</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7936 HYY</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2055</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Integro II</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7974 HYY</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2056</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Integro II</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>8015 HYY</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2057</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Integro II</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>8075 HYY</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2058</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>8204 HYY</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2059</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>8234 HYY</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2060</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>0247 JDB</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2061</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>0307 JDB</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2062</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>0328 JDB</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2063</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>0363 JDB</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2068</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Integro II</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4864 JDZ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2071</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>3087 JLC</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2072</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>3126 JLC</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2073</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>5925 JLD</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2074</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>1431 JLH</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2075</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>Lion's City A26 LL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>6571 JLJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2076</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>Lion's City A26 LL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>6621 JLJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2077</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>Lion's City A26 LL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>6687 JLJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2078</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>Lion's City A26 LL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1188 JLL</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2079</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>Lion's City A26 LL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1277 JLL</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2080</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0442 JRJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2081</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0445 JRJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2082</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0448 JRJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2083</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0455 JRJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2087</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.H LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4813 KTM</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2088</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.H LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>5239 KTM</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2089</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>Lion's City A26 LL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1532 KVH</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2090</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>Lion's City A26 LL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1714 KVH</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2093</Numero>
+        <Marca>Setra</Marca>
+        <Modelo>S419UL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>8763 LDY</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2094</Numero>
+        <Marca>Setra</Marca>
+        <Modelo>S419UL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>8934 LDY</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2095</Numero>
+        <Marca>Setra</Marca>
+        <Modelo>S419UL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3466 LDZ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2096</Numero>
+        <Marca>Setra</Marca>
+        <Modelo>S419UL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3511 LDZ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2097</Numero>
+        <Marca>Setra</Marca>
+        <Modelo>S419UL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0257 LFB</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2098</Numero>
+        <Marca>Setra</Marca>
+        <Modelo>S419UL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0300 LFB</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2099</Numero>
+        <Marca>Setra</Marca>
+        <Modelo>S419UL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3933 LFJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2100</Numero>
+        <Marca>Setra</Marca>
+        <Modelo>S419UL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3958 LFJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2101</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6026 LGH</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2102</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6042 LGH</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2103</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6049 LGH</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2104</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6056 LGH</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2105</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6061 LGH</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2106</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro II M</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7920 LGJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2107</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro II M</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7943 LGJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2108</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.H LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>8000 LGJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2109</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.H LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9779 LNK</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2110</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.H LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9816 LNK</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2111</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.H LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9832 LNK</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2112</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.H LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9881 LNK</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2113</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.H LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9904 LNK</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2114</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.H LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4513 LPJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2115</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>7884 LSK</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2116</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>8054 LSK</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2117</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>7871 LSK</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2118</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1665 LVL</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2119</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4773 MFV</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2120</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4837 MFV</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2121</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro Facelift</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>8795 HRK</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>2122</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro Facelift</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>8453 HRK</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Txorierri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3244</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0128 HYY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3245</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>9851 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3246</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>4660 HYY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3247</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0197 HYY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3249</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0128 HYY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3250</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>9918 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3251</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0069 HYY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3252</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4898 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3253</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4870 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3254</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4885 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3255</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4884 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3256</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4886 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3258</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4404 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3259</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4920 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3260</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Volvo</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4348 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3261</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Volvo</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4759 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3262</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Volvo</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4688 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3263</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Volvo</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4746 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3264</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Volvo</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4809 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3265</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Volvo</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>4721 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3266</Numero>
+        <Marca>Ferqui</Marca>
+        <Modelo>Sunrise - IVECO Daily</Modelo>
+        <Longitud>8 metros</Longitud>
+        <Matricula>4546 HYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3287</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E LE - Volvo</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>9275 HSM</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3292</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4410 JKV</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3293</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2794 JLC</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3294</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2669 JLC</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3295</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2729 JLC</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3296</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2452 JLC</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3297</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2354 JLC</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3298</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>5236 JKW</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3300</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>5330 JKW</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3302</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>7681 JLG</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3303</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>7589 JLG</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3305</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>6099 JLV</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3307</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7437 JSV</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3308</Numero>
+        <Marca>IVECO</Marca>
+        <Modelo>Crossway LE LINE</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7390 JSV</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3310</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0242 KGK</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3311</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0400 KGK</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3312</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>5015 KGG</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3313</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>4915 KGG</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3314</Numero>
+        <Marca>Volvo</Marca>
+        <Modelo>7900 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>8862 KRW</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3315</Numero>
+        <Marca>Volvo</Marca>
+        <Modelo>7900 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>8605 KRW</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3316</Numero>
+        <Marca>Volvo</Marca>
+        <Modelo>7900 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9060 KRW</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3317</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3397 KSF</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3318</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3407 KSF</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3319</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3397 KSF</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3320</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3430 KSF</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3321</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>2404 KRW</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3322</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>2459 KRW</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3323</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3441 KSF</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3324</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3450 KSF</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3325</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3462 KSF</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3326</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3485 KSF</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3327</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3513 KSF</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3328</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3546 KSF</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3330</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1553 LDG</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3331</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>1978 LMZ</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3332</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>1957 LMZ</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3333</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 Hybrid - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0216 LPY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3334</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 Hybrid - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0488 LPY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3335</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>1130 LVY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3336</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>1208 LVY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3337</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>1068 LVY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3338</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>1093 LVY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3339</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>0921 LVY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3346</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Integro II L</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0850 HFN</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3351</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7765 LXY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3352</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7901 LXY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3353</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>7994 LXY</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3354</Numero>
+        <Marca>Solaris</Marca>
+        <Modelo>Urbino 12 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>7506 MBC</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3355</Numero>
+        <Marca>Solaris</Marca>
+        <Modelo>Urbino 12 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>0062 MBC</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3356</Numero>
+        <Marca>Solaris</Marca>
+        <Modelo>Urbino 12 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>7345 MBC</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3357</Numero>
+        <Marca>Solaris</Marca>
+        <Modelo>Urbino 12 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4403 MBW</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3358</Numero>
+        <Marca>Solaris</Marca>
+        <Modelo>Urbino 12 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>5820 MBV</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3359</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>6298 MCM</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3360</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>6420 MCM</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3361</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>6128 MCM</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3364</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>New Lion's City 12 E</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4438 MFW</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3365</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>New Lion's City 12 E</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4512 MFW</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3366</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>5325 MGZ</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3367</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>5308 MGZ</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3368</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>5286 MGZ</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3369</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>5143 MGZ</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3372</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>3031 MNX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3373</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>3215 MNX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>3384</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 Hybrid - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>5852 MYX</Matricula>
+        <Concesion>Avanza</Concesion>
+        <DescripcionConcesion>Avanza - Durangaldea</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5012</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Mercedes-Benz</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9527 HYX</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5013</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Mercedes-Benz</Modelo>
+        <Longitud>11 metros</Longitud>
+        <Matricula>9571 HYX</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5014</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Mercedes-Benz</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9617 HYX</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5015</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Mercedes-Benz</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9657 HYX</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5016</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Mercedes-Benz</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9700 HYX</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5017</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Mercedes-Benz</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9715 HYX</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5019</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Integro II L</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>5165 JKV</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5020</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Integro II</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>5268 JKV</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5021</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Integro II</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>5366 JKV</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5022</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Integro II L</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>6285 JLJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5023</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Integro II L</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>6308 JLJ</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5024</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E LE - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>3147 JWS</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5025</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E LE - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>3207 JWS</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5026</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E LE - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>3370 JWS</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5027</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3469 JWS</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5028</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>CS.40 Magnus.LF - MAN</Modelo>
+        <Longitud>11 metros</Longitud>
+        <Matricula>3067 JWS</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5029</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3930 KVF</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5030</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>4230 KVF</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5031</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Mercedes-Benz</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>1368 LRY</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5032</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Mercedes-Benz</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>1818 LRY</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5033</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E LE - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9324 HSM</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>5034</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E LE - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9327 HSM</Matricula>
+        <Concesion>Vectalia</Concesion>
+        <DescripcionConcesion>Vectalia Enkarterri</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7762</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro Facelift</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>8708 HRK</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7763</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro Facelift</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>8600 HRK</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7764</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro Facelift</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>8531 HRK</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7766</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro Facelift</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>8412 HRK</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7767</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro Facelift</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>8374 HRK</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7768</Numero>
+        <Marca>Castrosua</Marca>
+        <Modelo>Magnus.E LE - Volvo</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>9228 HSM</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7777</Numero>
+        <Marca>Volvo</Marca>
+        <Modelo>7900 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3846 HYZ</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7778</Numero>
+        <Marca>Volvo</Marca>
+        <Modelo>7900 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>5017 HYZ</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7779</Numero>
+        <Marca>Volvo</Marca>
+        <Modelo>7900 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3847 HYZ</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7780</Numero>
+        <Marca>Volvo</Marca>
+        <Modelo>7900 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3851 HYZ</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7781</Numero>
+        <Marca>Volvo</Marca>
+        <Modelo>7900 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3844 HYZ</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7782</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>3845 HYZ</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7783</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>3848 HYZ</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7784</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>3852 HYZ</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7785</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>5009 HYZ</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7786</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>3849 HYZ</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7787</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3843 HYZ</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7788</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3850 HYZ</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7789</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2K</Modelo>
+        <Longitud>10 metros</Longitud>
+        <Matricula>0915 HZC</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7790</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>0917 HZC</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7791</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3213 JJX</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7792</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3211 JJX</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7793</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>5703 JKS</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7794</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>5760 JKS</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7795</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9809 JKR</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7796</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3011 JGK</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7797</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>2794 JGK</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7798</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2G</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>5267 JLB</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7799</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2G</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>4113 JKL</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7800</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2G</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>5268 JLB</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7801</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2G</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>5970 JLB</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7802</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>5772 JML</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7806</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>2991 JGK</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7807</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3209 JJX</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7808</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9082 JTT</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7809</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2G</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>4323 JTV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7810</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2G</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>4322 JTV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7811</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9084 JTT</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7812</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9085 JTT</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7813</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9083 JTT</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7814</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9078 JTT</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7815</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9099 JTT</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7816</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9080 JTT</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7817</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9086 JTT</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7818</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2G</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>4326 JTV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7819</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2G</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>4325 JTV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7820</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Volvo</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>7208 JWS</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7824</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>0663 KBC</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7825</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>0683 KBC</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7826</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>1418 KCX</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7827</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6003 KGC</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7828</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6005 KGC</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7829</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6017 KGC</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7830</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6011 KGC</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7831</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>7457 KGC</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7832</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>7455 KGC</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7833</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6026 KGC</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7834</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6024 KGC</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7835</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6028 KGC</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7836</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>Lion's City A37 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4761 KPL</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7837</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>Lion's City A37 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4812 KP</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7838</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>Lion's City A37 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4887 KP</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7839</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>Lion's City A37 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4891 KP</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7840</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>Lion's City A37 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4860 KP</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7841</Numero>
+        <Marca>MAN</Marca>
+        <Modelo>Lion's City A37 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4903 KP</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7842</Numero>
+        <Marca>Vectia</Marca>
+        <Modelo>Veris 12 Partial Electric</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6233 KXW</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7843</Numero>
+        <Marca>Vectia</Marca>
+        <Modelo>Veris 12 Partial Electric</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6383 KXW</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7844</Numero>
+        <Marca>Vectia</Marca>
+        <Modelo>Veris 12 Partial Electric</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>6416 KXW</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7845</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2G</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>3496 LKP</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7846</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2G</Modelo>
+        <Longitud>18 metros</Longitud>
+        <Matricula>3498 LKP</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7847</Numero>
+        <Marca>Solaris</Marca>
+        <Modelo>Urbino 12 Mild Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>1184 LRV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7848</Numero>
+        <Marca>Solaris</Marca>
+        <Modelo>Urbino 12 Mild Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>1178 LRV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7849</Numero>
+        <Marca>Solaris</Marca>
+        <Modelo>Urbino 12 Mild Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>1183 LRV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7850</Numero>
+        <Marca>Solaris</Marca>
+        <Modelo>Urbino 12 Mild Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>1181 LRV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7851</Numero>
+        <Marca>Solaris</Marca>
+        <Modelo>Urbino 12 Electric</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>1570 MBM</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7852</Numero>
+        <Marca>Solaris</Marca>
+        <Modelo>Urbino 12 Electric</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>1572 MBM</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7853</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9830 LZS</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7854</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9540 MBV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7855</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9551 MBV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7856</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9547 MBV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7857</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9544 MBV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7858</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2072 MCV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7859</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9552 MBV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7860</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9553 MBV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7861</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>9549 MBV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7862</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2070 MCV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7863</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2082 MCV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7864</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2074 MCV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7865</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2071 MCV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7866</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2073 MCV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7867</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2075 MCV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7868</Numero>
+        <Marca>irizar</Marca>
+        <Modelo>i3 LE - Scania Hybrid</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>5696 MFR</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7869</Numero>
+        <Marca>irizar</Marca>
+        <Modelo>i3 LE - Scania Hybrid</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>5695 MFR</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7870</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania Hybrid</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>3875 MGV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7871</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania Hybrid</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>3877 MGV</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7872</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3323 MNH</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7873</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3264 MNH</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7874</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3282 MNH</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7875</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3301 MNH</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7876</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3296 MNH</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7877</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3307 MNH</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7878</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3279 MNH</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7879</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3291 MNH</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7880</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Citaro C2 Hybrid</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3283 MNH</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7881</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania Hybrid</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>6751 MPG</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7882</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania Hybrid</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>6717 MPG</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7883</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania Hybrid</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>6721 MPG</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>7884</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania Hybrid</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>6718 MPG</Matricula>
+        <Concesion>EMB</Concesion>
+        <DescripcionConcesion>Ezkerraldea Meatzaldea Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8629</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>2867 HYZ</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8630</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>2873 HYZ</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8631</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>2872 HYZ</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8633</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Volvo</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>2869 HYZ</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8634</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Volvo</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>2870 HYZ</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8635</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Volvo</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>3106 HYZ</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8637</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>8471 JCZ</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8638</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>8476 JCZ</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8639</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Volvo</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>8559 JDW</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8640</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Volvo</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>8283 JDW</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8641</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Volvo</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>8551 JDW</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8642</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Volvo</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>9070 JMG</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8642</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Volvo</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>9070 JMG</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8644</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro II</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4742 JMF</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8645</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro II</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>3235 JMF</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8646</Numero>
+        <Marca>Setra</Marca>
+        <Modelo>S419UL</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>5671 JPG</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8647</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i3 LE - Scania</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>2622 JWX</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8648</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Volvo</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>7306 JVK</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8650</Numero>
+        <Marca>Sunsundegui</Marca>
+        <Modelo>SB3 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>5962 KGC</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8651</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0627 KSG</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8652</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0626 KSG</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8653</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>0625 KSG</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8654</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4598 LGG</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8655</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4599 LGG</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8656</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2736 LGT</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8657</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Integral</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>2789 LGT</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8658</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1450 LHB</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8659</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro II</Modelo>
+        <Longitud>12 metros</Longitud>
+        <Matricula>4058 LVY</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8660</Numero>
+        <Marca>Irizar</Marca>
+        <Modelo>i4 - Scania</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>7343 LTH</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8661</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro III L</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1304 MGB</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8662</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro III L</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1246 MGB</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8663</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro III L</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1244 MGB</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8664</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro III L</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1245 MGB</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8665</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro III L</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1247 MGB</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8666</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro III L</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1300 MGB</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8667</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro III L</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1248 MGB</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8668</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro III L</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>1986 MDG</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8669</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro III M</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9681 MYN</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8670</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro III M</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9706 MYN</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8671</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro III M</Modelo>
+        <Longitud>13 metros</Longitud>
+        <Matricula>9678 MYN</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8672</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro III M</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>9677 MYN</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8673</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro III M</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>9679 MYN</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+    <Vehiculo>
+        <Numero>8674</Numero>
+        <Marca>Mercedes-Benz</Marca>
+        <Modelo>Intouro III M</Modelo>
+        <Longitud>15 metros</Longitud>
+        <Matricula>9680 MYN</Matricula>
+        <Concesion>BLB</Concesion>
+        <DescripcionConcesion>Busturialdea-Lea Artibai Bus</DescripcionConcesion>
+    </Vehiculo>
+</Vehiculos>

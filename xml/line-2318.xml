@@ -1,0 +1,3719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex">
+  <PublicationTimestamp>2025-01-24T13:10:53Z</PublicationTimestamp>
+  <ParticipantRef>enRoute</ParticipantRef>
+  <dataObjects>
+    <CompositeFrame id="enRoute:CompositeFrame:1" version="any">
+      <frames>
+        <ServiceFrame id="enRoute:ServiceFrame:1" version="any">
+          <routePoints>
+            <RoutePoint id="2318-3948-3762-1" version="any">
+  <projections>
+    <PointProjection id="2318-3948-3762-1" version="any">
+      <ProjectToPointRef ref="2318-3948-3762_3948"/>
+    </PointProjection>
+  </projections>
+</RoutePoint>
+<RoutePoint id="2318-3948-3762-2" version="any">
+  <projections>
+    <PointProjection id="2318-3948-3762-2" version="any">
+      <ProjectToPointRef ref="2318-3948-3762_3762"/>
+    </PointProjection>
+  </projections>
+</RoutePoint>
+<RoutePoint id="2318-3762-3948-1" version="any">
+  <projections>
+    <PointProjection id="2318-3762-3948-1" version="any">
+      <ProjectToPointRef ref="2318-3762-3948_3762" version="any"/>
+    </PointProjection>
+  </projections>
+</RoutePoint>
+<RoutePoint id="2318-3762-3948-2" version="any">
+  <projections>
+    <PointProjection id="2318-3762-3948-2" version="any">
+      <ProjectToPointRef ref="2318-3762-3948_3948" version="any"/>
+    </PointProjection>
+  </projections>
+</RoutePoint>
+          </routePoints>
+          <routes>
+            <Route id="Route:2318-3948-3762" version="any">
+  <LineRef ref="2318"/>
+</Route>
+<Route id="Route:2318-3762-3948" version="any">
+  <LineRef ref="2318"/>
+</Route>
+          </routes>
+          <lines>
+            <Line id="2318" version="any">
+  <Name>Termibus-UPV/EHU (Autopista)</Name>
+  <ShortName>A2318</ShortName>
+</Line>
+          </lines>
+          <scheduledStopPoints>
+            <ScheduledStopPoint id="2318-3948-3762_3948" version="any"/>
+<ScheduledStopPoint id="2318-3948-3762_3762" version="any"/>
+<ScheduledStopPoint id="2318-3762-3948_3762" version="any"/>
+<ScheduledStopPoint id="2318-3762-3948_3948" version="any"/>
+          </scheduledStopPoints>
+          <stopAssignments>
+            <PassengerStopAssignment id="2318-3948-3762-3948" version="any" order="1">
+  <ScheduledStopPointRef ref="2318-3948-3762_3948" version="any"/>
+  <StopPlaceRef ref="3948"/>
+</PassengerStopAssignment>
+<PassengerStopAssignment id="2318-3948-3762-3762" version="any" order="1">
+  <ScheduledStopPointRef ref="2318-3948-3762_3762" version="any"/>
+  <StopPlaceRef ref="3762"/>
+</PassengerStopAssignment>
+<PassengerStopAssignment id="2318-3762-3948-3762" version="any" order="1">
+  <ScheduledStopPointRef ref="2318-3762-3948_3762" version="any"/>
+  <StopPlaceRef ref="3762"/>
+</PassengerStopAssignment>
+<PassengerStopAssignment id="2318-3762-3948-3948" version="any" order="1">
+  <ScheduledStopPointRef ref="2318-3762-3948_3948" version="any"/>
+  <StopPlaceRef ref="3948"/>
+</PassengerStopAssignment>
+          </stopAssignments>
+          <journeyPatterns>
+            <ServiceJourneyPattern id="ServiceJourneyPattern:2318-3948-3762" version="any">
+  <RouteRef ref="Route:2318-3948-3762" version="any"/>
+  <pointsInSequence>
+    <StopPointInJourneyPattern id="2318-3948-3762-1" version="any" order="1">
+      <ScheduledStopPointRef ref="2318-3948-3762_3948" version="any"/>
+    </StopPointInJourneyPattern>
+    <StopPointInJourneyPattern id="2318-3948-3762-2" version="any" order="2">
+      <ScheduledStopPointRef ref="2318-3948-3762_3762" version="any"/>
+    </StopPointInJourneyPattern>
+  </pointsInSequence>
+</ServiceJourneyPattern>
+<ServiceJourneyPattern id="ServiceJourneyPattern:2318-3762-3948" version="any">
+  <RouteRef ref="Route:2318-3762-3948" version="any"/>
+  <pointsInSequence>
+    <StopPointInJourneyPattern id="2318-3762-3948-1" version="any" order="1">
+      <ScheduledStopPointRef ref="2318-3762-3948_3762" version="any"/>
+    </StopPointInJourneyPattern>
+    <StopPointInJourneyPattern id="2318-3762-3948-2" version="any" order="2">
+      <ScheduledStopPointRef ref="2318-3762-3948_3948" version="any"/>
+    </StopPointInJourneyPattern>
+  </pointsInSequence>
+</ServiceJourneyPattern>
+          </journeyPatterns>
+        </ServiceFrame>
+        <TimetableFrame id="enRoute:TimetableFrame:1" version="any">
+          <vehicleJourneys>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_34800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>09:27:29</ArrivalTime>
+      <DepartureTime>09:40:19</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>10:01:42</ArrivalTime>
+      <DepartureTime>10:01:44</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_36000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>09:45:41</ArrivalTime>
+      <DepartureTime>09:54:48</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>10:20:15</ArrivalTime>
+      <DepartureTime>10:20:17</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_37200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>10:05:30</ArrivalTime>
+      <DepartureTime>10:20:34</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>10:39:12</ArrivalTime>
+      <DepartureTime>10:39:14</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_38400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>10:17:07</ArrivalTime>
+      <DepartureTime>10:40:27</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>11:01:30</ArrivalTime>
+      <DepartureTime>11:01:32</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_39600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>10:23:58</ArrivalTime>
+      <DepartureTime>10:54:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>11:19:03</ArrivalTime>
+      <DepartureTime>11:19:05</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_40800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>10:46:02</ArrivalTime>
+      <DepartureTime>11:20:30</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>11:38:33</ArrivalTime>
+      <DepartureTime>11:38:35</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_42000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>11:22:47</ArrivalTime>
+      <DepartureTime>11:40:25</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>12:01:17</ArrivalTime>
+      <DepartureTime>12:01:19</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_43200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>11:42:49</ArrivalTime>
+      <DepartureTime>12:00:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>12:19:05</ArrivalTime>
+      <DepartureTime>12:19:07</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_44400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>12:02:21</ArrivalTime>
+      <DepartureTime>12:20:29</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>12:39:04</ArrivalTime>
+      <DepartureTime>12:39:06</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_45600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>12:23:25</ArrivalTime>
+      <DepartureTime>12:40:32</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>13:01:00</ArrivalTime>
+      <DepartureTime>13:01:02</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_46800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>12:42:35</ArrivalTime>
+      <DepartureTime>13:00:15</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>13:18:32</ArrivalTime>
+      <DepartureTime>13:18:34</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_48000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>13:02:35</ArrivalTime>
+      <DepartureTime>13:20:48</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>13:40:10</ArrivalTime>
+      <DepartureTime>13:40:12</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_49200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>13:21:30</ArrivalTime>
+      <DepartureTime>13:40:40</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>14:01:56</ArrivalTime>
+      <DepartureTime>14:01:58</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_50400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>13:42:20</ArrivalTime>
+      <DepartureTime>14:00:30</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>14:19:09</ArrivalTime>
+      <DepartureTime>14:19:11</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_51600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>14:01:30</ArrivalTime>
+      <DepartureTime>14:20:53</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>14:41:26</ArrivalTime>
+      <DepartureTime>14:41:28</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_52800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>14:26:25</ArrivalTime>
+      <DepartureTime>14:40:22</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>15:02:02</ArrivalTime>
+      <DepartureTime>15:02:04</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_54000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>14:47:16</ArrivalTime>
+      <DepartureTime>15:02:13</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>15:23:18</ArrivalTime>
+      <DepartureTime>15:23:20</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_55200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>15:10:16</ArrivalTime>
+      <DepartureTime>15:26:46</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>15:46:52</ArrivalTime>
+      <DepartureTime>15:46:54</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_56400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>15:25:06</ArrivalTime>
+      <DepartureTime>15:40:35</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>15:59:43</ArrivalTime>
+      <DepartureTime>15:59:45</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_57600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>15:49:42</ArrivalTime>
+      <DepartureTime>16:06:27</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>16:19:28</ArrivalTime>
+      <DepartureTime>16:19:30</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_58800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>16:06:36</ArrivalTime>
+      <DepartureTime>16:24:38</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>16:39:37</ArrivalTime>
+      <DepartureTime>16:39:39</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_60000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>16:24:16</ArrivalTime>
+      <DepartureTime>16:40:24</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>17:00:12</ArrivalTime>
+      <DepartureTime>17:00:14</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_61200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>16:43:28</ArrivalTime>
+      <DepartureTime>17:00:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>17:19:19</ArrivalTime>
+      <DepartureTime>17:19:21</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_62400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>17:05:05</ArrivalTime>
+      <DepartureTime>17:18:34</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>17:42:25</ArrivalTime>
+      <DepartureTime>17:42:27</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_63600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>17:32:48</ArrivalTime>
+      <DepartureTime>17:45:11</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>18:20:31</ArrivalTime>
+      <DepartureTime>18:20:33</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LJIN_64800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>17:43:56</ArrivalTime>
+      <DepartureTime>18:00:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>18:21:49</ArrivalTime>
+      <DepartureTime>18:21:51</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_34800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>09:33:11</ArrivalTime>
+      <DepartureTime>09:40:33</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>09:59:27</ArrivalTime>
+      <DepartureTime>09:59:29</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_36000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>09:45:41</ArrivalTime>
+      <DepartureTime>09:54:48</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>10:20:15</ArrivalTime>
+      <DepartureTime>10:20:17</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_37200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>10:05:30</ArrivalTime>
+      <DepartureTime>10:20:34</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>10:39:12</ArrivalTime>
+      <DepartureTime>10:39:14</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_38400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>10:08:54</ArrivalTime>
+      <DepartureTime>10:40:44</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>11:00:03</ArrivalTime>
+      <DepartureTime>11:00:05</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_39600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>10:23:58</ArrivalTime>
+      <DepartureTime>10:54:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>11:19:03</ArrivalTime>
+      <DepartureTime>11:19:05</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_40800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>10:46:02</ArrivalTime>
+      <DepartureTime>11:20:30</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>11:38:33</ArrivalTime>
+      <DepartureTime>11:38:35</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_42000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>11:22:13</ArrivalTime>
+      <DepartureTime>11:40:36</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>11:59:35</ArrivalTime>
+      <DepartureTime>11:59:37</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_43200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>11:42:49</ArrivalTime>
+      <DepartureTime>12:00:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>12:19:05</ArrivalTime>
+      <DepartureTime>12:19:07</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_44400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>12:02:21</ArrivalTime>
+      <DepartureTime>12:20:29</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>12:39:04</ArrivalTime>
+      <DepartureTime>12:39:06</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_45600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>12:22:44</ArrivalTime>
+      <DepartureTime>12:40:33</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>12:59:48</ArrivalTime>
+      <DepartureTime>12:59:50</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_46800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>12:42:35</ArrivalTime>
+      <DepartureTime>13:00:15</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>13:18:32</ArrivalTime>
+      <DepartureTime>13:18:34</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_48000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>13:02:35</ArrivalTime>
+      <DepartureTime>13:20:48</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>13:40:10</ArrivalTime>
+      <DepartureTime>13:40:12</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_49200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>13:23:37</ArrivalTime>
+      <DepartureTime>13:40:39</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>14:00:29</ArrivalTime>
+      <DepartureTime>14:00:31</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_50400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>13:42:20</ArrivalTime>
+      <DepartureTime>14:00:30</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>14:19:09</ArrivalTime>
+      <DepartureTime>14:19:11</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_51600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>14:01:30</ArrivalTime>
+      <DepartureTime>14:20:53</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>14:41:26</ArrivalTime>
+      <DepartureTime>14:41:28</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_52800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>14:24:14</ArrivalTime>
+      <DepartureTime>14:40:36</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>15:01:11</ArrivalTime>
+      <DepartureTime>15:01:13</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_54000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>14:47:16</ArrivalTime>
+      <DepartureTime>15:02:13</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>15:23:18</ArrivalTime>
+      <DepartureTime>15:23:20</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_55200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>15:10:16</ArrivalTime>
+      <DepartureTime>15:26:46</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>15:46:52</ArrivalTime>
+      <DepartureTime>15:46:54</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_56400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>15:26:44</ArrivalTime>
+      <DepartureTime>15:40:55</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>16:00:20</ArrivalTime>
+      <DepartureTime>16:00:22</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_57600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>15:49:42</ArrivalTime>
+      <DepartureTime>16:06:27</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>16:19:28</ArrivalTime>
+      <DepartureTime>16:19:30</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_58800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>16:06:36</ArrivalTime>
+      <DepartureTime>16:24:38</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>16:39:37</ArrivalTime>
+      <DepartureTime>16:39:39</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_60000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>16:24:44</ArrivalTime>
+      <DepartureTime>16:40:40</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>16:59:43</ArrivalTime>
+      <DepartureTime>16:59:45</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_61200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>16:43:28</ArrivalTime>
+      <DepartureTime>17:00:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>17:19:19</ArrivalTime>
+      <DepartureTime>17:19:21</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_62400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>17:05:05</ArrivalTime>
+      <DepartureTime>17:18:34</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>17:42:25</ArrivalTime>
+      <DepartureTime>17:42:27</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_63600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>17:26:05</ArrivalTime>
+      <DepartureTime>17:40:40</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>18:00:35</ArrivalTime>
+      <DepartureTime>18:00:37</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40LUPVR_64800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>17:43:56</ArrivalTime>
+      <DepartureTime>18:00:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>18:21:49</ArrivalTime>
+      <DepartureTime>18:21:51</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_34800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>09:27:29</ArrivalTime>
+      <DepartureTime>09:40:19</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>10:01:42</ArrivalTime>
+      <DepartureTime>10:01:44</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_36000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>09:45:41</ArrivalTime>
+      <DepartureTime>09:54:48</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>10:20:15</ArrivalTime>
+      <DepartureTime>10:20:17</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_37200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>10:05:30</ArrivalTime>
+      <DepartureTime>10:20:34</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>10:39:12</ArrivalTime>
+      <DepartureTime>10:39:14</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_38400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>10:17:07</ArrivalTime>
+      <DepartureTime>10:40:27</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>11:01:30</ArrivalTime>
+      <DepartureTime>11:01:32</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_39600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>10:23:58</ArrivalTime>
+      <DepartureTime>10:54:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>11:19:03</ArrivalTime>
+      <DepartureTime>11:19:05</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_40800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>10:46:02</ArrivalTime>
+      <DepartureTime>11:20:30</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>11:38:33</ArrivalTime>
+      <DepartureTime>11:38:35</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_42000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>11:22:47</ArrivalTime>
+      <DepartureTime>11:40:25</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>12:01:17</ArrivalTime>
+      <DepartureTime>12:01:19</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_43200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>11:42:49</ArrivalTime>
+      <DepartureTime>12:00:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>12:19:05</ArrivalTime>
+      <DepartureTime>12:19:07</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_44400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>12:02:21</ArrivalTime>
+      <DepartureTime>12:20:29</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>12:39:04</ArrivalTime>
+      <DepartureTime>12:39:06</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_45600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>12:23:25</ArrivalTime>
+      <DepartureTime>12:40:32</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>13:01:00</ArrivalTime>
+      <DepartureTime>13:01:02</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_46800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>12:42:35</ArrivalTime>
+      <DepartureTime>13:00:15</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>13:18:32</ArrivalTime>
+      <DepartureTime>13:18:34</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_48000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>13:02:35</ArrivalTime>
+      <DepartureTime>13:20:48</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>13:40:10</ArrivalTime>
+      <DepartureTime>13:40:12</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_49200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>13:21:30</ArrivalTime>
+      <DepartureTime>13:40:40</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>14:01:56</ArrivalTime>
+      <DepartureTime>14:01:58</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_50400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>13:42:20</ArrivalTime>
+      <DepartureTime>14:00:30</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>14:19:09</ArrivalTime>
+      <DepartureTime>14:19:11</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_51600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>14:01:30</ArrivalTime>
+      <DepartureTime>14:20:53</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>14:41:26</ArrivalTime>
+      <DepartureTime>14:41:28</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_52800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>14:26:25</ArrivalTime>
+      <DepartureTime>14:40:22</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>15:02:02</ArrivalTime>
+      <DepartureTime>15:02:04</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_54000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>14:47:16</ArrivalTime>
+      <DepartureTime>15:02:13</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>15:23:18</ArrivalTime>
+      <DepartureTime>15:23:20</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_55200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>15:10:16</ArrivalTime>
+      <DepartureTime>15:26:46</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>15:46:52</ArrivalTime>
+      <DepartureTime>15:46:54</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_56400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>15:25:06</ArrivalTime>
+      <DepartureTime>15:40:35</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>15:59:43</ArrivalTime>
+      <DepartureTime>15:59:45</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_57600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>15:49:42</ArrivalTime>
+      <DepartureTime>16:06:27</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>16:19:28</ArrivalTime>
+      <DepartureTime>16:19:30</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_58800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>16:06:36</ArrivalTime>
+      <DepartureTime>16:24:38</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>16:39:37</ArrivalTime>
+      <DepartureTime>16:39:39</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_60000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>16:24:16</ArrivalTime>
+      <DepartureTime>16:40:24</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>17:00:12</ArrivalTime>
+      <DepartureTime>17:00:14</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_61200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>16:43:28</ArrivalTime>
+      <DepartureTime>17:00:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>17:19:19</ArrivalTime>
+      <DepartureTime>17:19:21</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_62400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>17:05:05</ArrivalTime>
+      <DepartureTime>17:18:34</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>17:42:25</ArrivalTime>
+      <DepartureTime>17:42:27</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_63600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>17:32:48</ArrivalTime>
+      <DepartureTime>17:45:11</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>18:20:31</ArrivalTime>
+      <DepartureTime>18:20:33</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_691_OP40VIN_64800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>17:43:56</ArrivalTime>
+      <DepartureTime>18:00:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>18:21:49</ArrivalTime>
+      <DepartureTime>18:21:51</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_692_OP40LJIN_36600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>10:01:42</ArrivalTime>
+      <DepartureTime>10:10:21</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>10:23:18</ArrivalTime>
+      <DepartureTime>10:23:20</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_692_OP40LJIN_37800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>10:18:43</ArrivalTime>
+      <DepartureTime>10:30:01</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>10:40:45</ArrivalTime>
+      <DepartureTime>10:40:47</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_692_OP40LJIN_39000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>10:39:15</ArrivalTime>
+      <DepartureTime>10:50:21</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>11:02:13</ArrivalTime>
+      <DepartureTime>11:02:15</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_692_OP40LJIN_40200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>11:00:53</ArrivalTime>
+      <DepartureTime>11:10:20</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>11:22:42</ArrivalTime>
+      <DepartureTime>11:22:44</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_692_OP40LJIN_41400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>11:19:13</ArrivalTime>
+      <DepartureTime>11:30:50</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>11:42:46</ArrivalTime>
+      <DepartureTime>11:42:48</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_692_OP40LJIN_42600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>11:38:41</ArrivalTime>
+      <DepartureTime>11:50:16</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>12:02:08</ArrivalTime>
+      <DepartureTime>12:02:10</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_692_OP40LJIN_43800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>12:01:29</ArrivalTime>
+      <DepartureTime>12:10:32</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>12:23:11</ArrivalTime>
+      <DepartureTime>12:23:13</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_692_OP40LJIN_45000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>12:19:11</ArrivalTime>
+      <DepartureTime>12:30:28</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>12:42:24</ArrivalTime>
+      <DepartureTime>12:42:26</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_692_OP40LJIN_46200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>12:39:11</ArrivalTime>
+      <DepartureTime>12:50:26</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>13:03:59</ArrivalTime>
+      <DepartureTime>13:04:01</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_692_OP40LJIN_47400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>13:05:01</ArrivalTime>
+      <DepartureTime>13:12:55</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>13:26:37</ArrivalTime>
+      <DepartureTime>13:26:39</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_692_OP40LJIN_48600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>13:18:43</ArrivalTime>
+      <DepartureTime>13:30:17</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>13:42:12</ArrivalTime>
+      <DepartureTime>13:42:14</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_692_OP40LJIN_49800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>13:40:20</ArrivalTime>
+      <DepartureTime>13:50:52</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>14:03:26</ArrivalTime>
+      <DepartureTime>14:03:28</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_692_OP40LJIN_51000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>13:59:05</ArrivalTime>
+      <DepartureTime>14:10:18</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>14:26:16</ArrivalTime>
+      <DepartureTime>14:26:18</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>
+<ServiceJourney id="trp_A2318_692_OP40LJIN_52200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>14:19:10</ArrivalTime>
+      <DepartureTime>14:30:12</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>14:47:06</ArrivalTime>
+      <DepartureTime>14:47:08</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_53400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>14:41:35</ArrivalTime>
+      <DepartureTime>14:50:29</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>15:10:04</ArrivalTime>
+      <DepartureTime>15:10:06</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_54600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>15:02:03</ArrivalTime>
+      <DepartureTime>15:10:11</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>15:24:58</ArrivalTime>
+      <DepartureTime>15:25:00</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_55800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>15:23:14</ArrivalTime>
+      <DepartureTime>15:31:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>15:49:33</ArrivalTime>
+      <DepartureTime>15:49:35</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_57000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>15:47:06</ArrivalTime>
+      <DepartureTime>15:56:35</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>16:06:28</ArrivalTime>
+      <DepartureTime>16:06:30</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_58200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>15:59:48</ArrivalTime>
+      <DepartureTime>16:10:15</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>16:24:08</ArrivalTime>
+      <DepartureTime>16:24:10</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_59400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>16:19:28</ArrivalTime>
+      <DepartureTime>16:30:13</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>16:43:20</ArrivalTime>
+      <DepartureTime>16:43:22</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_60600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>16:40:01</ArrivalTime>
+      <DepartureTime>16:51:04</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>17:04:52</ArrivalTime>
+      <DepartureTime>17:04:54</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_61800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>17:00:19</ArrivalTime>
+      <DepartureTime>17:10:07</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>17:33:51</ArrivalTime>
+      <DepartureTime>17:33:53</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_63000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>17:19:25</ArrivalTime>
+      <DepartureTime>17:30:21</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>17:43:43</ArrivalTime>
+      <DepartureTime>17:43:45</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_64200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>17:38:18</ArrivalTime>
+      <DepartureTime>17:50:52</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>18:05:12</ArrivalTime>
+      <DepartureTime>18:05:14</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_65400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>18:08:30</ArrivalTime>
+      <DepartureTime>18:16:12</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>18:43:00</ArrivalTime>
+      <DepartureTime>18:43:02</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_66600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>18:17:33</ArrivalTime>
+      <DepartureTime>18:30:17</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>18:46:11</ArrivalTime>
+      <DepartureTime>18:46:13</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_67800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>18:43:31</ArrivalTime>
+      <DepartureTime>18:50:32</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>19:03:40</ArrivalTime>
+      <DepartureTime>19:03:42</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_69000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>18:02:42</ArrivalTime>
+      <DepartureTime>18:10:13</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>18:23:42</ArrivalTime>
+      <DepartureTime>18:23:44</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_70200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>19:24:12</ArrivalTime>
+      <DepartureTime>19:30:13</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>19:45:07</ArrivalTime>
+      <DepartureTime>19:45:09</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_71400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>19:42:15</ArrivalTime>
+      <DepartureTime>19:50:46</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>20:03:20</ArrivalTime>
+      <DepartureTime>20:03:22</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_72600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>19:04:23</ArrivalTime>
+      <DepartureTime>19:10:17</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>19:25:38</ArrivalTime>
+      <DepartureTime>19:25:40</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_73800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>20:22:26</ArrivalTime>
+      <DepartureTime>20:30:14</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>20:41:30</ArrivalTime>
+      <DepartureTime>20:41:32</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_75000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>20:42:59</ArrivalTime>
+      <DepartureTime>20:50:25</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>21:02:07</ArrivalTime>
+      <DepartureTime>21:02:09</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LJIN_76200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>20:04:49</ArrivalTime>
+      <DepartureTime>20:13:56</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>20:22:09</ArrivalTime>
+      <DepartureTime>20:22:11</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_36600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>09:56:51</ArrivalTime>
+      <DepartureTime>10:09:16</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>10:16:38</ArrivalTime>
+      <DepartureTime>10:16:40</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_37800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>10:18:43</ArrivalTime>
+      <DepartureTime>10:30:01</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>10:40:45</ArrivalTime>
+      <DepartureTime>10:40:47</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_39000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>10:39:15</ArrivalTime>
+      <DepartureTime>10:50:21</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>11:02:13</ArrivalTime>
+      <DepartureTime>11:02:15</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_40200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>11:02:58</ArrivalTime>
+      <DepartureTime>11:10:09</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>11:17:48</ArrivalTime>
+      <DepartureTime>11:17:50</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_41400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>11:19:13</ArrivalTime>
+      <DepartureTime>11:30:50</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>11:42:46</ArrivalTime>
+      <DepartureTime>11:42:48</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_42600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>11:38:41</ArrivalTime>
+      <DepartureTime>11:50:16</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>12:02:08</ArrivalTime>
+      <DepartureTime>12:02:10</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_43800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>11:59:41</ArrivalTime>
+      <DepartureTime>12:10:31</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>12:22:36</ArrivalTime>
+      <DepartureTime>12:22:38</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_45000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>12:19:11</ArrivalTime>
+      <DepartureTime>12:30:28</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>12:42:24</ArrivalTime>
+      <DepartureTime>12:42:26</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_46200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>12:39:11</ArrivalTime>
+      <DepartureTime>12:50:26</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>13:03:59</ArrivalTime>
+      <DepartureTime>13:04:01</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_47400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>13:01:09</ArrivalTime>
+      <DepartureTime>13:10:32</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>13:23:40</ArrivalTime>
+      <DepartureTime>13:23:42</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_48600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>13:18:43</ArrivalTime>
+      <DepartureTime>13:30:17</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>13:42:12</ArrivalTime>
+      <DepartureTime>13:42:14</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_49800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>13:40:20</ArrivalTime>
+      <DepartureTime>13:50:52</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>14:03:26</ArrivalTime>
+      <DepartureTime>14:03:28</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_51000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>14:00:39</ArrivalTime>
+      <DepartureTime>14:10:18</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>14:24:08</ArrivalTime>
+      <DepartureTime>14:24:10</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_52200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>14:19:10</ArrivalTime>
+      <DepartureTime>14:30:12</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>14:47:06</ArrivalTime>
+      <DepartureTime>14:47:08</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_53400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>14:41:35</ArrivalTime>
+      <DepartureTime>14:50:29</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>15:10:04</ArrivalTime>
+      <DepartureTime>15:10:06</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_54600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>15:01:20</ArrivalTime>
+      <DepartureTime>15:10:22</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>15:26:33</ArrivalTime>
+      <DepartureTime>15:26:35</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_55800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>15:23:14</ArrivalTime>
+      <DepartureTime>15:31:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>15:49:33</ArrivalTime>
+      <DepartureTime>15:49:35</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_57000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>15:47:06</ArrivalTime>
+      <DepartureTime>15:56:35</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>16:06:28</ArrivalTime>
+      <DepartureTime>16:06:30</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_58200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>16:00:24</ArrivalTime>
+      <DepartureTime>16:10:28</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>16:25:47</ArrivalTime>
+      <DepartureTime>16:25:49</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_59400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>16:19:28</ArrivalTime>
+      <DepartureTime>16:30:13</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>16:43:20</ArrivalTime>
+      <DepartureTime>16:43:22</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_60600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>16:40:01</ArrivalTime>
+      <DepartureTime>16:51:04</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>17:04:52</ArrivalTime>
+      <DepartureTime>17:04:54</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_61800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>16:59:47</ArrivalTime>
+      <DepartureTime>17:10:21</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>17:25:59</ArrivalTime>
+      <DepartureTime>17:26:01</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_63000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>17:19:25</ArrivalTime>
+      <DepartureTime>17:30:21</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>17:43:43</ArrivalTime>
+      <DepartureTime>17:43:45</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_64200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>17:38:18</ArrivalTime>
+      <DepartureTime>17:50:52</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>18:05:12</ArrivalTime>
+      <DepartureTime>18:05:14</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_65400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>18:02:42</ArrivalTime>
+      <DepartureTime>18:10:13</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>18:23:42</ArrivalTime>
+      <DepartureTime>18:23:44</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_66600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>18:17:33</ArrivalTime>
+      <DepartureTime>18:30:17</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>18:46:11</ArrivalTime>
+      <DepartureTime>18:46:13</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_67800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>18:43:31</ArrivalTime>
+      <DepartureTime>18:50:32</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>19:03:40</ArrivalTime>
+      <DepartureTime>19:03:42</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_69000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>19:04:23</ArrivalTime>
+      <DepartureTime>19:10:17</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>19:25:38</ArrivalTime>
+      <DepartureTime>19:25:40</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_70200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>19:24:12</ArrivalTime>
+      <DepartureTime>19:30:13</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>19:45:07</ArrivalTime>
+      <DepartureTime>19:45:09</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_71400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>19:42:15</ArrivalTime>
+      <DepartureTime>19:50:46</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>20:03:20</ArrivalTime>
+      <DepartureTime>20:03:22</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_72600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>20:04:49</ArrivalTime>
+      <DepartureTime>20:13:56</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>20:22:09</ArrivalTime>
+      <DepartureTime>20:22:11</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_73800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>20:22:26</ArrivalTime>
+      <DepartureTime>20:30:14</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>20:41:30</ArrivalTime>
+      <DepartureTime>20:41:32</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_75000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>20:42:59</ArrivalTime>
+      <DepartureTime>20:50:25</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>21:02:07</ArrivalTime>
+      <DepartureTime>21:02:09</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40LUPVR_76200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>21:00:59</ArrivalTime>
+      <DepartureTime>21:10:08</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>21:21:43</ArrivalTime>
+      <DepartureTime>21:21:45</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_36600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>10:01:42</ArrivalTime>
+      <DepartureTime>10:10:21</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>10:23:18</ArrivalTime>
+      <DepartureTime>10:23:20</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_37800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>10:18:43</ArrivalTime>
+      <DepartureTime>10:30:01</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>10:40:45</ArrivalTime>
+      <DepartureTime>10:40:47</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_39000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>10:39:15</ArrivalTime>
+      <DepartureTime>10:50:21</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>11:02:13</ArrivalTime>
+      <DepartureTime>11:02:15</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_40200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>11:00:53</ArrivalTime>
+      <DepartureTime>11:10:20</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>11:22:42</ArrivalTime>
+      <DepartureTime>11:22:44</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_41400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>11:19:13</ArrivalTime>
+      <DepartureTime>11:30:50</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>11:42:46</ArrivalTime>
+      <DepartureTime>11:42:48</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_42600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>11:38:41</ArrivalTime>
+      <DepartureTime>11:50:16</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>12:02:08</ArrivalTime>
+      <DepartureTime>12:02:10</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_43800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>12:01:29</ArrivalTime>
+      <DepartureTime>12:10:32</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>12:23:11</ArrivalTime>
+      <DepartureTime>12:23:13</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_45000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>12:19:11</ArrivalTime>
+      <DepartureTime>12:30:28</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>12:42:24</ArrivalTime>
+      <DepartureTime>12:42:26</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_46200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>12:39:11</ArrivalTime>
+      <DepartureTime>12:50:26</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>13:03:59</ArrivalTime>
+      <DepartureTime>13:04:01</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_47400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>13:05:01</ArrivalTime>
+      <DepartureTime>13:12:55</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>13:26:37</ArrivalTime>
+      <DepartureTime>13:26:39</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_48600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>13:18:43</ArrivalTime>
+      <DepartureTime>13:30:17</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>13:42:12</ArrivalTime>
+      <DepartureTime>13:42:14</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_49800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>13:40:20</ArrivalTime>
+      <DepartureTime>13:50:52</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>14:03:26</ArrivalTime>
+      <DepartureTime>14:03:28</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_51000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>13:59:05</ArrivalTime>
+      <DepartureTime>14:10:18</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>14:26:16</ArrivalTime>
+      <DepartureTime>14:26:18</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_52200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>14:19:10</ArrivalTime>
+      <DepartureTime>14:30:12</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>14:47:06</ArrivalTime>
+      <DepartureTime>14:47:08</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_53400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>14:41:35</ArrivalTime>
+      <DepartureTime>14:50:29</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>15:10:04</ArrivalTime>
+      <DepartureTime>15:10:06</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_54600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>15:02:03</ArrivalTime>
+      <DepartureTime>15:10:11</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>15:24:58</ArrivalTime>
+      <DepartureTime>15:25:00</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_55800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>15:23:14</ArrivalTime>
+      <DepartureTime>15:31:23</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>15:49:33</ArrivalTime>
+      <DepartureTime>15:49:35</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_57000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>15:47:06</ArrivalTime>
+      <DepartureTime>15:56:35</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>16:06:28</ArrivalTime>
+      <DepartureTime>16:06:30</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_58200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>15:59:48</ArrivalTime>
+      <DepartureTime>16:10:15</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>16:24:08</ArrivalTime>
+      <DepartureTime>16:24:10</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_59400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>16:19:28</ArrivalTime>
+      <DepartureTime>16:30:13</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>16:43:20</ArrivalTime>
+      <DepartureTime>16:43:22</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_60600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>16:40:01</ArrivalTime>
+      <DepartureTime>16:51:04</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>17:04:52</ArrivalTime>
+      <DepartureTime>17:04:54</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_61800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>17:00:19</ArrivalTime>
+      <DepartureTime>17:10:07</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>17:33:51</ArrivalTime>
+      <DepartureTime>17:33:53</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_63000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>17:19:25</ArrivalTime>
+      <DepartureTime>17:30:21</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>17:43:43</ArrivalTime>
+      <DepartureTime>17:43:45</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_64200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>17:38:18</ArrivalTime>
+      <DepartureTime>17:50:52</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>18:05:12</ArrivalTime>
+      <DepartureTime>18:05:14</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_65400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>18:08:30</ArrivalTime>
+      <DepartureTime>18:16:12</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>18:43:00</ArrivalTime>
+      <DepartureTime>18:43:02</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_66600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>18:17:33</ArrivalTime>
+      <DepartureTime>18:30:17</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>18:46:11</ArrivalTime>
+      <DepartureTime>18:46:13</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_67800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>18:43:31</ArrivalTime>
+      <DepartureTime>18:50:32</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>19:03:40</ArrivalTime>
+      <DepartureTime>19:03:42</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_69000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>18:02:42</ArrivalTime>
+      <DepartureTime>18:10:13</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>18:23:42</ArrivalTime>
+      <DepartureTime>18:23:44</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_70200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>19:24:12</ArrivalTime>
+      <DepartureTime>19:30:13</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>19:45:07</ArrivalTime>
+      <DepartureTime>19:45:09</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_71400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>19:42:15</ArrivalTime>
+      <DepartureTime>19:50:46</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>20:03:20</ArrivalTime>
+      <DepartureTime>20:03:22</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_72600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>19:04:23</ArrivalTime>
+      <DepartureTime>19:10:17</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>19:25:38</ArrivalTime>
+      <DepartureTime>19:25:40</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_73800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>20:22:26</ArrivalTime>
+      <DepartureTime>20:30:14</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>20:41:30</ArrivalTime>
+      <DepartureTime>20:41:32</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_75000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>20:42:59</ArrivalTime>
+      <DepartureTime>20:50:25</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>21:02:07</ArrivalTime>
+      <DepartureTime>21:02:09</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_692_OP40VIN_76200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3762-3948" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-1" version="any"/>
+      <ArrivalTime>20:04:49</ArrivalTime>
+      <DepartureTime>20:13:56</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3762-3948-2" version="any"/>
+      <ArrivalTime>20:22:09</ArrivalTime>
+      <DepartureTime>20:22:11</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LJIN_25200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>06:51:35</ArrivalTime>
+      <DepartureTime>07:00:25</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>07:19:18</ArrivalTime>
+      <DepartureTime>07:19:20</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LJIN_27000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>07:15:33</ArrivalTime>
+      <DepartureTime>07:30:25</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>07:52:23</ArrivalTime>
+      <DepartureTime>07:52:25</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LJIN_27900" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>07:33:49</ArrivalTime>
+      <DepartureTime>07:45:30</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>08:07:44</ArrivalTime>
+      <DepartureTime>08:07:46</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LJIN_28800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>07:53:12</ArrivalTime>
+      <DepartureTime>08:00:43</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>08:20:40</ArrivalTime>
+      <DepartureTime>08:20:42</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LJIN_29700" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>08:04:26</ArrivalTime>
+      <DepartureTime>08:15:47</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>08:35:19</ArrivalTime>
+      <DepartureTime>08:35:21</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LJIN_30600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>08:20:43</ArrivalTime>
+      <DepartureTime>08:30:20</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>09:00:20</ArrivalTime>
+      <DepartureTime>09:00:22</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LJIN_31500" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>08:40:22</ArrivalTime>
+      <DepartureTime>08:46:12</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>09:05:20</ArrivalTime>
+      <DepartureTime>09:05:22</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LJIN_32400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>08:49:05</ArrivalTime>
+      <DepartureTime>08:57:47</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>09:20:18</ArrivalTime>
+      <DepartureTime>09:20:20</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LJIN_33600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LJIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>09:07:54</ArrivalTime>
+      <DepartureTime>09:20:31</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>09:39:40</ArrivalTime>
+      <DepartureTime>09:39:42</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LUPVR_25200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>06:51:35</ArrivalTime>
+      <DepartureTime>07:00:25</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>07:19:18</ArrivalTime>
+      <DepartureTime>07:19:20</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LUPVR_27000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>07:20:29</ArrivalTime>
+      <DepartureTime>07:30:37</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>07:51:10</ArrivalTime>
+      <DepartureTime>07:51:12</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LUPVR_27900" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>07:36:16</ArrivalTime>
+      <DepartureTime>07:45:38</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>08:06:44</ArrivalTime>
+      <DepartureTime>08:06:46</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LUPVR_28800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>07:53:12</ArrivalTime>
+      <DepartureTime>08:00:43</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>08:20:40</ArrivalTime>
+      <DepartureTime>08:20:42</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LUPVR_29700" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>08:04:26</ArrivalTime>
+      <DepartureTime>08:15:47</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>08:35:19</ArrivalTime>
+      <DepartureTime>08:35:21</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LUPVR_30600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>08:23:43</ArrivalTime>
+      <DepartureTime>08:31:38</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>08:52:35</ArrivalTime>
+      <DepartureTime>08:52:37</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LUPVR_31500" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>08:35:28</ArrivalTime>
+      <DepartureTime>08:44:50</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>09:03:53</ArrivalTime>
+      <DepartureTime>09:03:55</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LUPVR_32400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>08:49:05</ArrivalTime>
+      <DepartureTime>08:57:47</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>09:20:18</ArrivalTime>
+      <DepartureTime>09:20:20</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40LUPVR_33600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40LUPVR"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>09:07:54</ArrivalTime>
+      <DepartureTime>09:20:31</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>09:39:40</ArrivalTime>
+      <DepartureTime>09:39:42</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40VIN_25200" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>06:51:35</ArrivalTime>
+      <DepartureTime>07:00:25</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>07:19:18</ArrivalTime>
+      <DepartureTime>07:19:20</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40VIN_27000" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>07:15:33</ArrivalTime>
+      <DepartureTime>07:30:25</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>07:52:23</ArrivalTime>
+      <DepartureTime>07:52:25</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40VIN_27900" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>07:33:49</ArrivalTime>
+      <DepartureTime>07:45:30</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>08:07:44</ArrivalTime>
+      <DepartureTime>08:07:46</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40VIN_28800" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>07:53:12</ArrivalTime>
+      <DepartureTime>08:00:43</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>08:20:40</ArrivalTime>
+      <DepartureTime>08:20:42</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40VIN_29700" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>08:04:26</ArrivalTime>
+      <DepartureTime>08:15:47</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>08:35:19</ArrivalTime>
+      <DepartureTime>08:35:21</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40VIN_30600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>08:20:43</ArrivalTime>
+      <DepartureTime>08:30:20</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>09:00:20</ArrivalTime>
+      <DepartureTime>09:00:22</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40VIN_31500" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>08:40:22</ArrivalTime>
+      <DepartureTime>08:46:12</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>09:05:20</ArrivalTime>
+      <DepartureTime>09:05:22</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40VIN_32400" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>08:49:05</ArrivalTime>
+      <DepartureTime>08:57:47</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>09:20:18</ArrivalTime>
+      <DepartureTime>09:20:20</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney><ServiceJourney id="trp_A2318_693_OP40VIN_33600" version="any">
+  <dayTypes>
+    <DayTypeRef ref="OP40VIN"/>
+  </dayTypes>
+  <JourneyPatternRef ref="ServiceJourneyPattern:2318-3948-3762" version="any"/>
+  <passingTimes>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-1" version="any"/>
+      <ArrivalTime>09:07:54</ArrivalTime>
+      <DepartureTime>09:20:31</DepartureTime>
+    </TimetabledPassingTime>
+    <TimetabledPassingTime version="any">
+      <StopPointInJourneyPatternRef ref="2318-3948-3762-2" version="any"/>
+      <ArrivalTime>09:39:40</ArrivalTime>
+      <DepartureTime>09:39:42</DepartureTime>
+    </TimetabledPassingTime>
+  </passingTimes>
+</ServiceJourney>          </vehicleJourneys>
+        </TimetableFrame>
+      </frames>
+    </CompositeFrame>
+  </dataObjects>
+</PublicationDelivery>

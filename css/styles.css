@@ -1,0 +1,189 @@
+body {
+    font-family: 'Raleway';
+    background-color: #d5ecb5;
+}
+
+header {
+    display: inline-flex;
+}
+
+header img {
+    width: 12.5em;
+    height: auto;
+}
+
+header h1 {
+    margin-left: 1em;
+    align-content: center;
+    font-weight: bold;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: -26em;
+    width: 25em;
+    height: 70%;
+    border-radius: 1em;
+    background-color: #97e666;
+    overflow-y: auto;
+    transition: left 0.3s ease;
+    z-index: 2000;
+    transform: translateY(-50%);
+}
+
+.modal-content {
+    color: black;
+    padding: 1.25em;
+    font-size: 1.125em;
+}
+
+.close-btn {
+    color: black;
+    font-size: 1.875em;
+    position: absolute;
+    top: 0.2em;
+    right: 0.625em;
+    cursor: pointer;
+}
+
+#modal-info {
+    margin-top: 1.25em;
+}
+
+.modal.show {
+    left: 1em;
+}
+
+.bus-container {
+    display: flex;
+}
+
+.bus-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7em;
+    justify-content: center;
+    max-width: 37.5em;
+    margin: auto;
+}
+
+.info-row {
+    display: flex;
+    justify-content: center;
+    gap: 0.7em;
+    width: 100%;
+}
+
+.info-box {
+    border: 0.063em solid #9e9e9e;
+    padding: 0.9em;
+    border-radius: 0.625em;
+    text-align: center;
+    align-content: center;
+}
+
+.info-box-label {
+    font-size: 0.7em;
+    color: gray;
+}
+
+.info-box-desc {
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+.stops-info {
+    text-align: left;
+}
+
+#map {
+    font-family: 'Raleway';
+    height: 80vh;
+    width: 100%;
+    border-radius: 0.625em;
+    box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+}
+
+.search-container {
+    position: absolute;
+    top: 0.625em;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background: white;
+    padding: 0.625em;
+    border-radius: 0.313em;
+    box-shadow: 0 0.125em 0.313em rgba(0, 0, 0, 0.2);
+}
+
+#search {
+    font-family: 'Raleway';
+    width: 15.625em;
+    padding: 0.313em 0.625em 0.313em 0.313em;
+    border: none;
+    border-radius: 0.188em;
+}
+
+#search:focus {
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 1.25em;
+    top: 47%;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #888;
+    pointer-events: none;
+}
+
+#search-results {
+    max-height: 9.375em;
+    overflow-y: auto;
+    border: 0.063em solid #ccc;
+    background: white;
+    display: none;
+    position: absolute;
+    width: 15.625em;
+    z-index: 1001;
+}
+
+.search-result {
+    padding: 0.313em;
+    cursor: pointer;
+    border-bottom: 0.063em solid #ddd;
+}
+
+.search-result:hover {
+    background: #f0f0f0;
+}
+
+#last-update {
+    text-align: center;
+}
+
+.gg-search {
+    box-sizing: border-box;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 100%;
+}
+
+.gg-search::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 8px;
+    background: currentColor;
+    transform: rotate(-45deg);
+    top: 10px;
+    left: 12px
+}
