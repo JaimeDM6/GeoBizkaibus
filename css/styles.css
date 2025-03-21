@@ -20,6 +20,7 @@ header h1 {
 
 .modal {
     position: absolute;
+    visibility: hidden;
     top: 50%;
     left: -26em;
     width: 25em;
@@ -53,6 +54,7 @@ header h1 {
 
 .modal.show {
     left: 1em;
+    visibility: visible;
 }
 
 .bus-container {
